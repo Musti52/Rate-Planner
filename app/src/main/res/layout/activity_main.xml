@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffe0"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="410dp">
+
+            <Button
+                android:id="@+id/ShreeOmButton"
+                android:layout_width="157dp"
+                android:layout_height="86dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="80dp"
+                android:background="#bdb76b"
+                android:text="SHREE OM TMT"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/KamdhenuButton"
+                android:layout_width="157dp"
+                android:layout_height="86dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="80dp"
+                android:background="#87ceeb"
+                android:text="KAMDHENU TMT"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="410dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/linearLayout">
+
+            <Button
+                android:id="@+id/RaigarhTMTButton"
+                android:layout_width="157dp"
+                android:layout_height="86dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:background="#9370db"
+                android:text="RAIGARH TMT"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/GoelTMTButton"
+                android:layout_width="157dp"
+                android:layout_height="86dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:background="#daa520 	"
+                android:text="GOEL  TMT"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="410dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/linearLayout">
+
+            <Button
+                android:id="@+id/RaigarhItemButton"
+                android:layout_width="157dp"
+                android:layout_height="86dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="95dp"
+                android:background="#9acd32"
+                android:text="RAIGARH -            ANGLE, CHANNEL, BEAM"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/RaipurItemButton"
+                android:layout_width="157dp"
+                android:layout_height="86dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="95dp"
+                android:background="#f0e68c"
+                android:text="RAIPUR -          Angle, Channel, Beam"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="410dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/linearLayout">
+
+            <Button
+                android:id="@+id/PipeButton"
+                android:layout_width="157dp"
+                android:layout_height="86dp"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="100dp"
+                android:background="#20b2aa"
+                android:text="PIPE"
+                android:textSize="18dp" />/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
